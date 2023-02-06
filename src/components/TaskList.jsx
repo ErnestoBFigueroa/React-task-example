@@ -11,8 +11,9 @@ function TaskList() {
   }
 
   return (
-    <div className='grid grid-cols-4 gap-2'>
-      
+    // <div className='grid grid-cols-4 gap-4' >
+    <div className='DisGrid'>
+
       {tasks.map((task) => (
         <TaskCard key={task.id} task={task} />
       ))}

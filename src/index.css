@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.DisGrid {
+ display: grid;
+ gap: 1rem;
+ grid-auto-rows: 12rem;
+ grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
